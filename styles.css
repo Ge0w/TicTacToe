@@ -2,43 +2,53 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 }
 
 #container {
-    display:block;
-    margin:auto;
+    margin:0 auto;
+    width: 80%;
 }
 
-#title {
-    margin:auto;
-    top: 200px;
+header {
     text-align: center;
+    padding-top:50px;
+    padding-bottom:50px;
 }
 
 #gameboard {
     display:grid;
     grid-template-columns: repeat(3,200px);
     grid-template-rows: repeat(3,200px);
-    align-items: center;
-    justify-content: center;
+    float:right;
+    width: 70%;
+}
+
+#players {
+    float:left;
+    margin-left:auto;
+    margin-right:auto;
+    width: 25%;
 }
 
 .gamecell {
     border: 2px solid black;
-    height:200px;
+    height: 200px;
     width: 200px;
     display:flex;
     align-items:center;
     justify-content: center;
 }
 
-#main-screen {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .image {
     width: 150px;
     height: 150px;
+}
+
+.button {
+    border: 2px solid black;
+    text-align: center;
+    cursor: pointer;
+    width: 80%;
+    margin-bottom: 15px;
 }
