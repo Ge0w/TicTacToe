@@ -25,7 +25,7 @@ const gameBoard = (() => {
                 p1Score++
                 playerScreen.innerHTML = 
                 `<h2><u>Score</u></h2>
-                <h2>${gameBoard.player1.name} <i class="far fa-circle"></i>: ${p1Score}</h2>
+                <h2>${gameBoard.player1.name} <i class="fas fa-times"></i>: ${p1Score}</h2>
                 <h2>${gameBoard.player2.name} <i class="far fa-circle"></i>: ${p2Score}</h2>`
             } else {
                 alert('Player 2 Wins!');
@@ -33,7 +33,7 @@ const gameBoard = (() => {
                 p2Score++
                 playerScreen.innerHTML = 
                 `<h2><u>Score</u></h2>
-                <h2>${gameBoard.player1.name} <i class="far fa-circle"></i>: ${p1Score}</h2>
+                <h2>${gameBoard.player1.name} <i class="fas fa-times"></i>: ${p1Score}</h2>
                 <h2>${gameBoard.player2.name} <i class="far fa-circle"></i>: ${p2Score}</h2>`
             }
         } else if (gameArray[0] === gameArray[3] && gameArray[0] === gameArray[6] && gameArray[0] !== '') {
@@ -43,7 +43,7 @@ const gameBoard = (() => {
                 p1Score++
                 playerScreen.innerHTML = 
                 `<h2><u>Score</u></h2>
-                <h2>${gameBoard.player1.name} <i class="far fa-circle"></i>: ${p1Score}</h2>
+                <h2>${gameBoard.player1.name} <i class="fas fa-times"></i>: ${p1Score}</h2>
                 <h2>${gameBoard.player2.name} <i class="far fa-circle"></i>: ${p2Score}</h2>`
             } else {
                 alert('Player 2 Wins!');
@@ -51,7 +51,7 @@ const gameBoard = (() => {
                 p2Score++
                 playerScreen.innerHTML = 
                 `<h2><u>Score</u></h2>
-                <h2>${gameBoard.player1.name} <i class="far fa-circle"></i>: ${p1Score}</h2>
+                <h2>${gameBoard.player1.name} <i class="fas fa-times"></i>: ${p1Score}</h2>
                 <h2>${gameBoard.player2.name} <i class="far fa-circle"></i>: ${p2Score}</h2>`
             }
         } else if (gameArray[0] === gameArray[4] && gameArray[0] === gameArray[8] && gameArray[0] !== '') {
@@ -61,7 +61,7 @@ const gameBoard = (() => {
                 p1Score++
                 playerScreen.innerHTML = 
                 `<h2><u>Score</u></h2>
-                <h2>${gameBoard.player1.name} <i class="far fa-circle"></i>: ${p1Score}</h2>
+                <h2>${gameBoard.player1.name} <i class="fas fa-times"></i>: ${p1Score}</h2>
                 <h2>${gameBoard.player2.name} <i class="far fa-circle"></i>: ${p2Score}</h2>`
             } else {
                 alert('Player 2 Wins!');
@@ -69,7 +69,7 @@ const gameBoard = (() => {
                 p2Score++
                 playerScreen.innerHTML = 
                 `<h2><u>Score</u></h2>
-                <h2>${gameBoard.player1.name} <i class="far fa-circle"></i>: ${p1Score}</h2>
+                <h2>${gameBoard.player1.name} <i class="fas fa-times"></i>: ${p1Score}</h2>
                 <h2>${gameBoard.player2.name} <i class="far fa-circle"></i>: ${p2Score}</h2>`
             }
         } else if (gameArray[2] === gameArray[4] && gameArray[2] === gameArray[6] && gameArray[2] !== '') {
@@ -79,7 +79,7 @@ const gameBoard = (() => {
                 p1Score++
                 playerScreen.innerHTML = 
                 `<h2><u>Score</u></h2>
-                <h2>${gameBoard.player1.name} <i class="far fa-circle"></i>: ${p1Score}</h2>
+                <h2>${gameBoard.player1.name} <i class="fas fa-times"></i>: ${p1Score}</h2>
                 <h2>${gameBoard.player2.name} <i class="far fa-circle"></i>: ${p2Score}</h2>`
             } else {
                 alert('Player 2 Wins!');
@@ -87,7 +87,7 @@ const gameBoard = (() => {
                 p2Score++
                 playerScreen.innerHTML = 
                 `<h2><u>Score</u></h2>
-                <h2>${gameBoard.player1.name} <i class="far fa-circle"></i>: ${p1Score}</h2>
+                <h2>${gameBoard.player1.name} <i class="fas fa-times"></i>: ${p1Score}</h2>
                 <h2>${gameBoard.player2.name} <i class="far fa-circle"></i>: ${p2Score}</h2>`
             }
         } else if (gameArray[1] === gameArray[4] && gameArray[1] === gameArray[7] && gameArray[1] !== '') {
@@ -97,7 +97,7 @@ const gameBoard = (() => {
                 p1Score++
                 playerScreen.innerHTML = 
                 `<h2><u>Score</u></h2>
-                <h2>${gameBoard.player1.name} <i class="far fa-circle"></i>: ${p1Score}</h2>
+                <h2>${gameBoard.player1.name} <i class="fas fa-times"></i>: ${p1Score}</h2>
                 <h2>${gameBoard.player2.name} <i class="far fa-circle"></i>: ${p2Score}</h2>`
             } else {
                 alert('Player 2 Wins!');
@@ -105,7 +105,7 @@ const gameBoard = (() => {
                 p2Score++
                 playerScreen.innerHTML = 
                 `<h2><u>Score</u></h2>
-                <h2>${gameBoard.player1.name} <i class="far fa-circle"></i>: ${p1Score}</h2>
+                <h2>${gameBoard.player1.name} <i class="fas fa-times"></i>: ${p1Score}</h2>
                 <h2>${gameBoard.player2.name} <i class="far fa-circle"></i>: ${p2Score}</h2>`
             }
         } else if (gameArray[2] === gameArray[5] && gameArray[2] === gameArray[8] && gameArray[2] !== '') {
@@ -115,7 +115,7 @@ const gameBoard = (() => {
                 p1Score++
                 playerScreen.innerHTML = 
                 `<h2><u>Score</u></h2>
-                <h2>${gameBoard.player1.name} <i class="far fa-circle"></i>: ${p1Score}</h2>
+                <h2>${gameBoard.player1.name} <i class="fas fa-times"></i>: ${p1Score}</h2>
                 <h2>${gameBoard.player2.name} <i class="far fa-circle"></i>: ${p2Score}</h2>`
             } else {
                 alert('Player 2 Wins!');
@@ -123,7 +123,7 @@ const gameBoard = (() => {
                 p2Score++
                 playerScreen.innerHTML = 
                 `<h2><u>Score</u></h2>
-                <h2>${gameBoard.player1.name} <i class="far fa-circle"></i>: ${p1Score}</h2>
+                <h2>${gameBoard.player1.name} <i class="fas fa-times"></i>: ${p1Score}</h2>
                 <h2>${gameBoard.player2.name} <i class="far fa-circle"></i>: ${p2Score}</h2>`
             }
         } else if (gameArray[3] === gameArray[4] && gameArray[3] === gameArray[5] && gameArray[3] !== '') {
@@ -133,7 +133,7 @@ const gameBoard = (() => {
                 p1Score++
                 playerScreen.innerHTML = 
                 `<h2><u>Score</u></h2>
-                <h2>${gameBoard.player1.name} <i class="far fa-circle"></i>: ${p1Score}</h2>
+                <h2>${gameBoard.player1.name} <i class="fas fa-times"></i>: ${p1Score}</h2>
                 <h2>${gameBoard.player2.name} <i class="far fa-circle"></i>: ${p2Score}</h2>`
             } else {
                 alert('Player 2 Wins!');
@@ -141,7 +141,7 @@ const gameBoard = (() => {
                 p2Score++
                 playerScreen.innerHTML = 
                 `<h2><u>Score</u></h2>
-                <h2>${gameBoard.player1.name} <i class="far fa-circle"></i>: ${p1Score}</h2>
+                <h2>${gameBoard.player1.name} <i class="fas fa-times"></i>: ${p1Score}</h2>
                 <h2>${gameBoard.player2.name} <i class="far fa-circle"></i>: ${p2Score}</h2>`
             }
         } else if (gameArray[6] === gameArray[7] && gameArray[6] === gameArray[8] && gameArray[6] !== '') {
@@ -151,7 +151,7 @@ const gameBoard = (() => {
                 p1Score++
                 playerScreen.innerHTML = 
                 `<h2><u>Score</u></h2>
-                <h2>${gameBoard.player1.name} <i class="far fa-circle"></i>: ${p1Score}</h2>
+                <h2>${gameBoard.player1.name} <i class="fas fa-times"></i>: ${p1Score}</h2>
                 <h2>${gameBoard.player2.name} <i class="far fa-circle"></i>: ${p2Score}</h2>`
             } else {
                 alert('Player 2 Wins!');
@@ -159,7 +159,7 @@ const gameBoard = (() => {
                 p2Score++
                 playerScreen.innerHTML = 
                 `<h2><u>Score</u></h2>
-                <h2>${gameBoard.player1.name} <i class="far fa-circle"></i>: ${p1Score}</h2>
+                <h2>${gameBoard.player1.name} <i class="fas fa-times"></i>: ${p1Score}</h2>
                 <h2>${gameBoard.player2.name} <i class="far fa-circle"></i>: ${p2Score}</h2>`
             }
         } else if (gameArray.every(e => e !== '')) {
